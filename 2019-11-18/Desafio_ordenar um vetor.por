@@ -3,33 +3,32 @@ programa
 	
 	funcao inicio()
 	{
-		real A[10]
+		inteiro valores[10]
 		inteiro pos
 
-		para(pos = 0; pos<10; pos++)
+		para (pos = 0; pos < 10; pos ++)
 		{
-			leia(A[pos])
+			leia(valores[pos])
 		}
-		
+		para (pos = 0; pos < 10 ; pos++) 
 		{
-			para (pos=0; pos<10; pos++)	
+			se (valores[pos] <= 10)
 			{
-        			escreva(" A[", pos,"]= ",A [pos],"\n")
-				
+				valores[pos] = 1
+			}
 		}
+		para (pos=0; pos<10; pos++)
+			{
+				escreva ("X[",pos,"]=",valores[pos],"\n")
+			}
 	}
-	
 }
-}
-
-
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 221; 
+ * @POSICAO-CURSOR = 104; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
