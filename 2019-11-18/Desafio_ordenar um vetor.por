@@ -11,7 +11,7 @@ programa
 			
 		}
 		para (vezes=0;vezes<10;vezes++)
-		
+		 
 		para (pos=0;pos<9;pos++)
 		{
 			se (x[pos]>x[pos+1])
@@ -26,7 +26,6 @@ programa
 			escreva(x[pos]," ")
 		}
 		escreva("\\n") 
-		
 		
 		
 		{
@@ -46,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 368; 
+ * @POSICAO-CURSOR = 372; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
